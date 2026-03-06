@@ -1,6 +1,58 @@
 import { NgModule } from '@angular/core';
-import { AnonymousConsentsModule, AuthModule, CostCenterOccModule, ExternalRoutesModule, ProductModule, ProductOccModule, provideFeatureToggles, UserModule, UserOccModule } from "@spartacus/core";
-import { AnonymousConsentManagementBannerModule, AnonymousConsentsDialogModule, BannerCarouselModule, BannerModule, BreadcrumbModule, CategoryNavigationModule, CmsParagraphModule, ConsentManagementModule, FooterNavigationModule, HamburgerMenuModule, HomePageEventModule, LinkModule, LoginRouteModule, LogoutModule, MyAccountV2Module, MyCouponsModule, MyInterestsModule, NavigationEventModule, NavigationModule, NotificationPreferenceModule, PageTitleModule, PaymentMethodsModule, PDFModule, ProductCarouselModule, ProductDetailsPageModule, ProductFacetNavigationModule, ProductImagesModule, ProductIntroModule, ProductListingPageModule, ProductListModule, ProductPageEventModule, ProductReferencesModule, ProductSummaryModule, ProductTabsModule, ScrollToTopModule, SearchBoxModule, SiteContextSelectorModule, SiteThemeSwitcherModule, StockNotificationModule, TabParagraphContainerModule, VideoModule } from "@spartacus/storefront";
+import {
+  AnonymousConsentsModule,
+  AuthModule,
+  CostCenterOccModule,
+  ExternalRoutesModule,
+  ProductModule,
+  ProductOccModule,
+  provideFeatureToggles,
+  UserModule,
+  UserOccModule,
+} from '@spartacus/core';
+import {
+  AnonymousConsentManagementBannerModule,
+  AnonymousConsentsDialogModule,
+  BannerCarouselModule,
+  BannerModule,
+  BreadcrumbModule,
+  CategoryNavigationModule,
+  CmsParagraphModule,
+  ConsentManagementModule,
+  FooterNavigationModule,
+  HamburgerMenuModule,
+  HomePageEventModule,
+  LinkModule,
+  LoginRouteModule,
+  LogoutModule,
+  MyAccountV2Module,
+  MyCouponsModule,
+  MyInterestsModule,
+  NavigationEventModule,
+  NavigationModule,
+  NotificationPreferenceModule,
+  PageTitleModule,
+  PaymentMethodsModule,
+  PDFModule,
+  ProductCarouselModule,
+  ProductDetailsPageModule,
+  ProductFacetNavigationModule,
+  ProductImagesModule,
+  ProductIntroModule,
+  ProductListingPageModule,
+  ProductListModule,
+  ProductPageEventModule,
+  ProductReferencesModule,
+  ProductSummaryModule,
+  ProductTabsModule,
+  ScrollToTopModule,
+  SearchBoxModule,
+  SiteContextSelectorModule,
+  SiteThemeSwitcherModule,
+  StockNotificationModule,
+  TabParagraphContainerModule,
+  VideoModule,
+} from '@spartacus/storefront';
 import { UserFeatureModule } from './features/user/user-feature.module';
 import { CartBaseFeatureModule } from './features/cart/cart-base-feature.module';
 import { CartSavedCartFeatureModule } from './features/cart/cart-saved-cart-feature.module';
@@ -8,25 +60,30 @@ import { WishListFeatureModule } from './features/cart/wish-list-feature.module'
 import { CartQuickOrderFeatureModule } from './features/cart/cart-quick-order-feature.module';
 import { CartImportExportFeatureModule } from './features/cart/cart-import-export-feature.module';
 import { OrderFeatureModule } from './features/order/order-feature.module';
+import { OrderDocumentFlowFeatureModule } from './features/order/order-document-flow-feature.module';
 import { CheckoutFeatureModule } from './features/checkout/checkout-feature.module';
+import { OpfFeatureModule } from './features/opf/opf-feature.module';
 import { PersonalizationFeatureModule } from './features/tracking/personalization-feature.module';
+import { PdfinvoicesModuleFeatureModule } from './features/pdf-invoices/pdfinvoices-module-feature.module';
+import { RequestedDeliveryDateModuleFeatureModule } from './features/requested-delivery-date/requested-delivery-date-module-feature.module';
+import { OrganizationUserRegistrationFeatureModule } from './features/organization/organization-user-registration-feature.module';
+import { OrganizationAdministrationFeatureModule } from './features/organization/organization-administration-feature.module';
+import { OrganizationAccountSummaryFeatureModule } from './features/organization/organization-account-summary-feature.module';
+import { OrganizationUnitOrderFeatureModule } from './features/organization/organization-unit-order-feature.module';
+import { OrganizationOrderApprovalFeatureModule } from './features/organization/organization-order-approval-feature.module';
 import { StoreFinderFeatureModule } from './features/storefinder/store-finder-feature.module';
 import { AsmFeatureModule } from './features/asm/asm-feature.module';
 import { AsmCustomer360FeatureModule } from './features/asm/asm-customer360-feature.module';
+import { PunchoutFeatureModule } from './features/punchout/punchout-feature.module';
+import { CpqQuoteFeatureModule } from './features/cpq-quote/cpq-quote-feature.module';
+import { S4ServiceFeatureModule } from './features/s4-service/s4-service-feature.module';
+import { S4omFeatureModule } from './features/s4om/s4om-feature.module';
+import { DigitalPaymentsFeatureModule } from './features/digital-payments/digital-payments-feature.module';
+import { CdcFeatureModule } from './features/cdc/cdc-feature.module';
 import { SmartEditFeatureModule } from './features/smartedit/smart-edit-feature.module';
 import { ProductVariantsFeatureModule } from './features/product/product-variants-feature.module';
 import { ProductImageZoomFeatureModule } from './features/product/product-image-zoom-feature.module';
-import { TagManagementFeatureModule } from './features/tracking/tag-management-feature.module';
-import { QualtricsFeatureModule } from './features/qualtrics/qualtrics-feature.module';
-import { CustomerTicketingFeatureModule } from './features/customer-ticketing/customer-ticketing-feature.module';
-import { PickupInStoreFeatureModule } from './features/pickup-in-store/pickup-in-store-feature.module';
-import { OrganizationAdministrationFeatureModule } from './features/organization/organization-administration-feature.module';
-import { OrganizationOrderApprovalFeatureModule } from './features/organization/organization-order-approval-feature.module';
-import { OrganizationAccountSummaryFeatureModule } from './features/organization/organization-account-summary-feature.module';
-import { OrganizationUserRegistrationFeatureModule } from './features/organization/organization-user-registration-feature.module';
-import { OrganizationUnitOrderFeatureModule } from './features/organization/organization-unit-order-feature.module';
-import { ProductFutureStockFeatureModule } from './features/product/product-future-stock-feature.module';
-import { ProductConfiguratorFeatureModule } from './features/product-configurator/product-configurator-feature.module';
+import { ProductBulkPricingFeatureModule } from './features/product/product-bulk-pricing-feature.module';
 
 @NgModule({
   declarations: [],
@@ -87,139 +144,72 @@ import { ProductConfiguratorFeatureModule } from './features/product-configurato
     CartQuickOrderFeatureModule,
     CartImportExportFeatureModule,
     OrderFeatureModule,
+    OrderDocumentFlowFeatureModule,
     CheckoutFeatureModule,
+    OpfFeatureModule,
     PersonalizationFeatureModule,
+    PdfinvoicesModuleFeatureModule,
+    RequestedDeliveryDateModuleFeatureModule,
+    OrganizationUserRegistrationFeatureModule,
+    OrganizationAdministrationFeatureModule,
+    OrganizationAccountSummaryFeatureModule,
+    OrganizationUnitOrderFeatureModule,
+    OrganizationOrderApprovalFeatureModule,
     StoreFinderFeatureModule,
     AsmFeatureModule,
     AsmCustomer360FeatureModule,
+    PunchoutFeatureModule,
+    CpqQuoteFeatureModule,
+    S4ServiceFeatureModule,
+    S4omFeatureModule,
+    DigitalPaymentsFeatureModule,
+    CdcFeatureModule,
     SmartEditFeatureModule,
     ProductVariantsFeatureModule,
     ProductImageZoomFeatureModule,
-    TagManagementFeatureModule,
-    QualtricsFeatureModule,
-    CustomerTicketingFeatureModule,
-    PickupInStoreFeatureModule,
-    OrganizationAdministrationFeatureModule,
-    OrganizationOrderApprovalFeatureModule,
-    OrganizationAccountSummaryFeatureModule,
-    OrganizationUserRegistrationFeatureModule,
-    OrganizationUnitOrderFeatureModule,
-    ProductFutureStockFeatureModule,
-    ProductConfiguratorFeatureModule
+    ProductBulkPricingFeatureModule,
   ],
-  providers: [provideFeatureToggles({
-    "showDeliveryOptionsTranslation": true,
-    "searchBoxV2": true,
-    "trendingSearches": true,
-    "useProductCarouselBatchApi": true,
-    "propagateErrorsToServer": true,
-    "ssrStrictErrorHandlingForHttpAndNgrx": true,
-    "productConfiguratorDeltaRendering": true,
-    "a11yUseProperTextColorForFutureStockAccordion": true,
-    "a11yNavMenuExpandStateReadout": true,
-    "a11yPreventHorizontalScroll": true,
-    "a11yPopoverHighContrast": true,
-    "a11yTabsManualActivation": true,
-    "a11yCartImportConfirmationMessage": true,
-    "a11yAnonymousConsentMessageInDialog": true,
-    "a11yMobileFocusOnFirstNavigationItem": true,
-    "a11yQuickOrderSearchListKeyboardNavigation": true,
-    "a11yStyleExternalLinksAsLinks": true,
-    "a11ySearchboxLabel": true,
-    "a11ySelectLabelWithContextForSelectedAddrOrPayment": true,
-    "a11yUseTrapTabInsteadOfTrapInDialogs": true,
-    "a11yKeyboardAccessibleZoom": true,
-    "a11yTruncatedTextStoreFinder": true,
-    "a11yTruncatedTextUnitLevelOrderHistory": true,
-    "a11yPreventCartItemsFormRedundantRecreation": true,
-    "a11yTabComponent": true,
-    "a11yCarouselArrowKeysNavigation": true,
-    "a11yPickupOptionsTabs": true,
-    "a11yResetFocusAfterNavigating": true,
-    "headerLayoutForSmallerViewports": true,
-    "a11yStoreFinderLabel": true,
-    "a11yImprovedErrorMessage": true,
-    "a11yLinkBtnsToTertiaryBtns": true,
-    "a11yRepeatedPageTitleFix": true,
-    "a11yNgSelectOptionsCount": true,
-    "a11yNgSelectCloseDropdownOnEscape": true,
-    "a11ySelectImprovementsCustomerTicketingCreateSelectbox": true,
-    "a11yNgSelectAriaLabelDropdownCustomized": true,
-    "a11yRepeatedCancelOrderError": true,
-    "a11yAddedToCartActiveDialog": true,
-    "a11yDeliveryMethodFieldset": true,
-    "a11yShowMoreReviewsBtnFocus": true,
-    "a11yQuickOrderAriaControls": true,
-    "a11yRemoveStatusLoadedRole": true,
-    "a11yDialogsHeading": true,
-    "a11yDialogTriggerRefocus": true,
-    "a11yAddToWishlistFocus": true,
-    "a11ySearchBoxFocusOnEscape": true,
-    "a11yUpdatingCartNoNarration": true,
-    "a11yPasswordVisibliltyBtnValueOverflow": true,
-    "a11yItemCounterFocus": true,
-    "a11yScrollToReviewByShowReview": true,
-    "a11yViewHoursButtonIconContrast": true,
-    "a11yStoreInStockIconContrast": true,
-    "a11yCheckoutStepsLandmarks": true,
-    "a11yQTY2Quantity": true,
-    "a11yImproveButtonsInCardComponent": true,
-    "a11yMiniCartFocusOnMobile": true,
-    "a11yWrapReviewOrderInSection": true,
-    "a11yApprovalProcessWithNoClearable": true,
-    "a11yPostRegisterSuccessMessage": true,
-    "a11yDeleteButton2First": true,
-    "a11yShowLabelOfSelect": true,
-    "a11yShowDownArrowOnFocusedSelectMenu": true,
-    "a11yCroppedFocusRing": true,
-    "a11yTextSpacingAdjustments": true,
-    "a11yTableHeaderReadout": true,
-    "a11ySearchboxAssistiveMessage": true,
-    "updateConsentGivenInOnChanges": true,
-    "a11yDifferentiateFocusedAndSelected": true,
-    "a11yQuickOrderSearchBoxRefocusOnClose": true,
-    "a11yKeyboardFocusInSearchBox": true,
-    "a11yAddPaddingToCarouselPanel": true,
-    "a11yNavigationButtonsAriaFixes": true,
-    "a11yFocusOnCardAfterSelecting": true,
-    "a11ySearchableDropdownFirstElementFocus": true,
-    "a11yHideConsentButtonWhenBannerVisible": true,
-    "a11yRepeatingButtonsUniqueLabels": true,
-    "a11yHighContrastBorders": true,
-    "a11yRegionAssociatedHeaders": true,
-    "useSiteThemeService": true,
-    "enableConsecutiveCharactersPasswordRequirement": true,
-    "enablePasswordsCannotMatchInPasswordUpdateForm": true,
-    "allPageMetaResolversEnabledInCsr": true,
-    "a11yPdpGridArrangement": true,
-    "a11yHamburgerMenuTrapFocus": true,
-    "useExtendedMediaComponentConfiguration": true,
-    "showRealTimeStockInPDP": true,
-    "a11yScrollToTopPositioning": true,
-    "a11yWideScreenImprovements": true,
-    "a11yOptimizedMenuSpacing": true,
-    "a11yNgSelectLayering": true,
-    "readMoreDirective": true,
-    "productReviewCharactersLeft": true,
-    "a11yNgSelectAriaControls": true,
-    "a11yConfiguratorOverviewHeaderVPC": true,
-    "enableSecurePasswordValidation": true,
-    "enableCarouselCategoryProducts": true,
-    "enableClaimCustomerCouponWithCodeInRequestBody": true,
-    "enableReadDomainValuesOnDemand": true,
-    "opfEnablePreventingFromCheckoutWithoutEmail": true,
-    "storeFinderFacadeCleanup": true,
-    "defaultProductPageRouteAllowsNoProductName": true,
-    "consistentSizeProductCards": true,
-    "reserveHorizontalSpaceStarRating": true,
-    "topProgressBarUseTransformAnimation": true,
-    "disableCxPageSlotMarginAnimation": true,
-    "productCarouselScrolling": true,
-    "createMediaPreconnectLink": true,
-    "unifiedDefaultHeaderSlotsAcrossBreakpoints": true,
-    "reserveSpaceForImagesOnPdpAndPlp": true,
-    "lazyLoadImagesByDefault": true,
-    "defaultLayoutConfigWithoutPageFold": true
-  })]
+  providers: [
+    provideFeatureToggles({
+      a11yKeyboardAccessibleZoom: true,
+      a11yPreventCartItemsFormRedundantRecreation: true,
+      a11yStoreFinderLabel: true,
+      a11yImprovedErrorMessage: true,
+      a11yLinkBtnsToTertiaryBtns: true,
+      a11ySelectImprovementsCustomerTicketingCreateSelectbox: true,
+      a11yAddPaddingToCarouselPanel: true,
+      a11yWideScreenImprovements: true,
+      a11yOptimizedMenuSpacing: true,
+      a11yNgSelectLayering: true,
+      a11yNgSelectUnicodeCarets: true,
+      readMoreDirective: true,
+      productReviewCharactersLeft: true,
+      a11yNgSelectAriaControls: true,
+      a11yConfiguratorOverviewHeaderVPC: true,
+      a11yFutureStockAccordionAriaControls: true,
+      enableReadDomainValuesOnDemand: true,
+      opfEnablePreventingFromCheckoutWithoutEmail: true,
+      storeFinderFacadeCleanup: true,
+      defaultProductPageRouteAllowsNoProductName: true,
+      consistentSizeProductCards: true,
+      reserveHorizontalSpaceStarRating: true,
+      topProgressBarUseTransformAnimation: true,
+      disableCxPageSlotMarginAnimation: true,
+      productCarouselScrolling: true,
+      cdsLoginEventsToken: true,
+      createMediaPreconnectLink: true,
+      unifiedDefaultHeaderSlotsAcrossBreakpoints: true,
+      reserveSpaceForImagesOnPdpAndPlp: true,
+      lazyLoadImagesByDefault: true,
+      authorizationCodeFlowByDefault: true,
+      incrementProcessesCountForMergeCart: true,
+      dispatchLoginActionOnlyWhenTokenReceived: true,
+      defaultLayoutConfigWithoutPageFold: true,
+      navigationMenuCloseOnSameLinkClick: true,
+      enablePasswordExpiredErrorTranslation: true,
+      enableQuotePurchaseOrderNumber: true,
+      enableReturnOrderReturnableQuantityConsigmentFallback: true,
+    }),
+  ],
 })
-export class SpartacusFeaturesModule { }
+export class SpartacusFeaturesModule {}

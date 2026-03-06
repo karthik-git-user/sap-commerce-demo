@@ -1,0 +1,1 @@
+import{$b as i,Ca as t}from"./chunk-QQTUBZ5S.js";import"./chunk-25N2FLV6.js";var r=(()=>{class e{static{this.\u0275fac=function(o){return new(o||e)}}static{this.\u0275mod=i({type:e})}static{this.\u0275inj=t({})}}return e})();export{r as S4omModule};

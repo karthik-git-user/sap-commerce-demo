@@ -8,7 +8,7 @@
     "storefrontAddons": [
         {
             "addons": [
-                "ordermanagementaddon"
+                "ordermanagementaddon" 
             ],
             "storefronts": [
                 "yacceleratorstorefront"

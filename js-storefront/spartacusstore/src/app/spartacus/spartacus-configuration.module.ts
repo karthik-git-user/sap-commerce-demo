@@ -25,6 +25,7 @@ import {
       backend: {
         occ: {
           //~ baseUrl: 'https://localhost:9002',
+          baseUrl: 'https://api.czoc5dfcf0-novalneta2-d1-public.model-t.cc.commerce.ondemand.com',
         },
       },
     }),

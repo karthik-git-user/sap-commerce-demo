@@ -25,7 +25,7 @@ import {
     provideConfig(<OccConfig>{
       backend: {
         occ: {
-          //~ baseUrl: 'https://localhost:9002',
+          //baseUrl: 'OCC_BACKEND_BASE_URL_VALUE', prefix: '/occ/v2/'
         },
       },
     }),

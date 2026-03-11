@@ -25,6 +25,7 @@ import {
       backend: {
         occ: {
           //baseUrl: 'OCC_BACKEND_BASE_URL_VALUE', prefix: '/occ/v2/'
+          baseUrl: 'https://api.czoc5dfcf0-novalneta2-d1-public.model-t.cc.commerce.ondemand.com', prefix: '/occ/v2/'
         },
       },
     }),

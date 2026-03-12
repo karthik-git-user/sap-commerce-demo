@@ -66,9 +66,15 @@
               "src/styles/spartacus/cart.scss",
               "src/styles/spartacus/order.scss",
               "src/styles/spartacus/checkout.scss",
+              "src/styles/spartacus/opf.scss",
+              "src/styles/spartacus/pdf-invoices.scss",
+              "src/styles/spartacus/requested-delivery-date.scss",
               "src/styles/spartacus/organization.scss",
+              "src/styles/spartacus/product-configurator.scss",
               "src/styles/spartacus/storefinder.scss",
               "src/styles/spartacus/asm.scss",
+              "src/styles/spartacus/punchout.scss",
+              "src/styles/spartacus/s4-service.scss",
               "src/styles/spartacus/product.scss"
             ],
             "stylePreprocessorOptions": {
@@ -137,9 +143,15 @@
               "src/styles/spartacus/cart.scss",
               "src/styles/spartacus/order.scss",
               "src/styles/spartacus/checkout.scss",
+              "src/styles/spartacus/opf.scss",
+              "src/styles/spartacus/pdf-invoices.scss",
+              "src/styles/spartacus/requested-delivery-date.scss",
               "src/styles/spartacus/organization.scss",
+              "src/styles/spartacus/product-configurator.scss",
               "src/styles/spartacus/storefinder.scss",
               "src/styles/spartacus/asm.scss",
+              "src/styles/spartacus/punchout.scss",
+              "src/styles/spartacus/s4-service.scss",
               "src/styles/spartacus/product.scss"
             ],
             "assets": [

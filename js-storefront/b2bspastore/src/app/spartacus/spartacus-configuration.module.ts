@@ -31,9 +31,9 @@ import {
     }),
     provideConfig(<SiteContextConfig>{
       context: {
-        urlParameters: ['baseSite', 'language', 'currency'],
-		baseSite: ['powertools-spa'],
-		currency: ['USD', 'GBP',]
+	urlParameters: ['baseSite', 'language', 'currency'],
+	baseSite: ['powertools-spa'],
+	currency: ['USD', 'GBP',]
       },
     }),
     provideConfig(<I18nConfig>{

@@ -67,10 +67,8 @@
               "src/styles/spartacus/order.scss",
               "src/styles/spartacus/checkout.scss",
               "src/styles/spartacus/organization.scss",
-              "src/styles/spartacus/product-configurator.scss",
               "src/styles/spartacus/storefinder.scss",
               "src/styles/spartacus/asm.scss",
-              "src/styles/spartacus/punchout.scss",
               "src/styles/spartacus/product.scss"
             ],
             "stylePreprocessorOptions": {
@@ -140,10 +138,8 @@
               "src/styles/spartacus/order.scss",
               "src/styles/spartacus/checkout.scss",
               "src/styles/spartacus/organization.scss",
-              "src/styles/spartacus/product-configurator.scss",
               "src/styles/spartacus/storefinder.scss",
               "src/styles/spartacus/asm.scss",
-              "src/styles/spartacus/punchout.scss",
               "src/styles/spartacus/product.scss"
             ],
             "assets": [

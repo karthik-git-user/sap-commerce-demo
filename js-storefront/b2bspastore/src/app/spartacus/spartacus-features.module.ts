@@ -67,16 +67,12 @@ import { OrganizationAdministrationFeatureModule } from './features/organization
 import { OrganizationAccountSummaryFeatureModule } from './features/organization/organization-account-summary-feature.module';
 import { OrganizationUnitOrderFeatureModule } from './features/organization/organization-unit-order-feature.module';
 import { OrganizationOrderApprovalFeatureModule } from './features/organization/organization-order-approval-feature.module';
-import { ProductConfiguratorFeatureModule } from './features/product-configurator/product-configurator-feature.module';
 import { StoreFinderFeatureModule } from './features/storefinder/store-finder-feature.module';
 import { AsmFeatureModule } from './features/asm/asm-feature.module';
 import { AsmCustomer360FeatureModule } from './features/asm/asm-customer360-feature.module';
-import { PunchoutFeatureModule } from './features/punchout/punchout-feature.module';
 import { SmartEditFeatureModule } from './features/smartedit/smart-edit-feature.module';
-import { ProductFutureStockFeatureModule } from './features/product/product-future-stock-feature.module';
 import { ProductVariantsFeatureModule } from './features/product/product-variants-feature.module';
 import { ProductImageZoomFeatureModule } from './features/product/product-image-zoom-feature.module';
-import { ProductBulkPricingFeatureModule } from './features/product/product-bulk-pricing-feature.module';
 
 @NgModule({
   declarations: [],
@@ -144,16 +140,12 @@ import { ProductBulkPricingFeatureModule } from './features/product/product-bulk
     OrganizationAccountSummaryFeatureModule,
     OrganizationUnitOrderFeatureModule,
     OrganizationOrderApprovalFeatureModule,
-    ProductConfiguratorFeatureModule,
     StoreFinderFeatureModule,
     AsmFeatureModule,
     AsmCustomer360FeatureModule,
-    PunchoutFeatureModule,
     SmartEditFeatureModule,
-    ProductFutureStockFeatureModule,
     ProductVariantsFeatureModule,
     ProductImageZoomFeatureModule,
-    ProductBulkPricingFeatureModule,
   ],
   providers: [
     provideFeatureToggles({

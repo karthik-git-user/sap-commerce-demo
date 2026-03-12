@@ -18,7 +18,7 @@ import { CmsConfig, I18nConfig, provideConfig } from '@spartacus/core';
     provideConfig(<CmsConfig>{
       featureModules: {
         [CART_BASE_FEATURE]: {
-          module: () => import('./cart-base-wrapper.module').then((m) => m.CartBaseWrapperModule),
+          module: () => import('@spartacus/cart/base').then((m) => m.CartBaseModule),
         },
       },
     }),

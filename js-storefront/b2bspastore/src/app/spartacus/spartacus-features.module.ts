@@ -60,27 +60,20 @@ import { WishListFeatureModule } from './features/cart/wish-list-feature.module'
 import { CartQuickOrderFeatureModule } from './features/cart/cart-quick-order-feature.module';
 import { CartImportExportFeatureModule } from './features/cart/cart-import-export-feature.module';
 import { OrderFeatureModule } from './features/order/order-feature.module';
-import { OrderDocumentFlowFeatureModule } from './features/order/order-document-flow-feature.module';
 import { CheckoutFeatureModule } from './features/checkout/checkout-feature.module';
-import { OpfFeatureModule } from './features/opf/opf-feature.module';
 import { PersonalizationFeatureModule } from './features/tracking/personalization-feature.module';
-import { PdfinvoicesModuleFeatureModule } from './features/pdf-invoices/pdfinvoices-module-feature.module';
-import { RequestedDeliveryDateModuleFeatureModule } from './features/requested-delivery-date/requested-delivery-date-module-feature.module';
 import { OrganizationUserRegistrationFeatureModule } from './features/organization/organization-user-registration-feature.module';
 import { OrganizationAdministrationFeatureModule } from './features/organization/organization-administration-feature.module';
 import { OrganizationAccountSummaryFeatureModule } from './features/organization/organization-account-summary-feature.module';
 import { OrganizationUnitOrderFeatureModule } from './features/organization/organization-unit-order-feature.module';
 import { OrganizationOrderApprovalFeatureModule } from './features/organization/organization-order-approval-feature.module';
+import { ProductConfiguratorFeatureModule } from './features/product-configurator/product-configurator-feature.module';
 import { StoreFinderFeatureModule } from './features/storefinder/store-finder-feature.module';
 import { AsmFeatureModule } from './features/asm/asm-feature.module';
 import { AsmCustomer360FeatureModule } from './features/asm/asm-customer360-feature.module';
 import { PunchoutFeatureModule } from './features/punchout/punchout-feature.module';
-import { CpqQuoteFeatureModule } from './features/cpq-quote/cpq-quote-feature.module';
-import { S4ServiceFeatureModule } from './features/s4-service/s4-service-feature.module';
-import { S4omFeatureModule } from './features/s4om/s4om-feature.module';
-import { DigitalPaymentsFeatureModule } from './features/digital-payments/digital-payments-feature.module';
-import { CdcFeatureModule } from './features/cdc/cdc-feature.module';
 import { SmartEditFeatureModule } from './features/smartedit/smart-edit-feature.module';
+import { ProductFutureStockFeatureModule } from './features/product/product-future-stock-feature.module';
 import { ProductVariantsFeatureModule } from './features/product/product-variants-feature.module';
 import { ProductImageZoomFeatureModule } from './features/product/product-image-zoom-feature.module';
 import { ProductBulkPricingFeatureModule } from './features/product/product-bulk-pricing-feature.module';
@@ -144,27 +137,20 @@ import { ProductBulkPricingFeatureModule } from './features/product/product-bulk
     CartQuickOrderFeatureModule,
     CartImportExportFeatureModule,
     OrderFeatureModule,
-    OrderDocumentFlowFeatureModule,
     CheckoutFeatureModule,
-    OpfFeatureModule,
     PersonalizationFeatureModule,
-    PdfinvoicesModuleFeatureModule,
-    RequestedDeliveryDateModuleFeatureModule,
     OrganizationUserRegistrationFeatureModule,
     OrganizationAdministrationFeatureModule,
     OrganizationAccountSummaryFeatureModule,
     OrganizationUnitOrderFeatureModule,
     OrganizationOrderApprovalFeatureModule,
+    ProductConfiguratorFeatureModule,
     StoreFinderFeatureModule,
     AsmFeatureModule,
     AsmCustomer360FeatureModule,
     PunchoutFeatureModule,
-    CpqQuoteFeatureModule,
-    S4ServiceFeatureModule,
-    S4omFeatureModule,
-    DigitalPaymentsFeatureModule,
-    CdcFeatureModule,
     SmartEditFeatureModule,
+    ProductFutureStockFeatureModule,
     ProductVariantsFeatureModule,
     ProductImageZoomFeatureModule,
     ProductBulkPricingFeatureModule,

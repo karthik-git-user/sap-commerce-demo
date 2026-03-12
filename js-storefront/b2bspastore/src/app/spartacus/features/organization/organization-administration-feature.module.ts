@@ -17,7 +17,7 @@ import {
       featureModules: {
         [ORGANIZATION_ADMINISTRATION_FEATURE]: {
           module: () =>
-            import('./administration-wrapper.module').then((m) => m.AdministrationWrapperModule),
+            import('@spartacus/organization/administration').then((m) => m.AdministrationModule),
         },
       },
     }),

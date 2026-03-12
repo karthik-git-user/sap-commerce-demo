@@ -18,8 +18,7 @@ import { USER_PROFILE_FEATURE, UserProfileRootModule } from '@spartacus/user/pro
     provideConfig(<CmsConfig>{
       featureModules: {
         [USER_ACCOUNT_FEATURE]: {
-          module: () =>
-            import('./user-account-wrapper.module').then((m) => m.UserAccountWrapperModule),
+          module: () => import('@spartacus/user/account').then((m) => m.UserAccountModule),
         },
       },
     }),
@@ -32,8 +31,7 @@ import { USER_PROFILE_FEATURE, UserProfileRootModule } from '@spartacus/user/pro
     provideConfig(<CmsConfig>{
       featureModules: {
         [USER_PROFILE_FEATURE]: {
-          module: () =>
-            import('./user-profile-wrapper.module').then((m) => m.UserProfileWrapperModule),
+          module: () => import('@spartacus/user/profile').then((m) => m.UserProfileModule),
         },
       },
     }),

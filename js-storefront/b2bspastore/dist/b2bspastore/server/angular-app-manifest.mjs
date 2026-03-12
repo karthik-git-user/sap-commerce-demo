@@ -7,161 +7,114 @@ export default {
   routes: undefined,
   entryPointToBrowserMapping: {
   "node_modules/@spartacus/punchout/fesm2022/spartacus-punchout.mjs": [
-    "chunk-FUGMUGTW.js",
-    "chunk-KU4G2TG2.js"
-  ],
-  "node_modules/@spartacus/s4-service/fesm2022/spartacus-s4-service.mjs": [
-    "chunk-VRP6KU7E.js"
-  ],
-  "node_modules/@spartacus/s4om/fesm2022/spartacus-s4om.mjs": [
-    "chunk-35VBNIL6.js"
-  ],
-  "node_modules/@spartacus/cdc/fesm2022/spartacus-cdc.mjs": [
-    "chunk-ZCH6DNOM.js"
+    "chunk-WRK76I43.js"
   ],
   "node_modules/@spartacus/smartedit/fesm2022/spartacus-smartedit.mjs": [
-    "chunk-AQBYFDW7.js"
+    "chunk-ZCWU57O5.js"
+  ],
+  "node_modules/@spartacus/product/fesm2022/spartacus-product-future-stock.mjs": [
+    "chunk-O4YHFLZL.js"
   ],
   "node_modules/@spartacus/product/fesm2022/spartacus-product-variants.mjs": [
-    "chunk-S3IBMRO2.js"
+    "chunk-62O4BE7N.js"
   ],
   "node_modules/@spartacus/product/fesm2022/spartacus-product-image-zoom.mjs": [
-    "chunk-3HRVJ4VD.js"
+    "chunk-3R3KMM5X.js"
   ],
   "node_modules/@spartacus/product/fesm2022/spartacus-product-bulk-pricing.mjs": [
-    "chunk-HWK6L4FR.js"
+    "chunk-B6YT7YVX.js"
   ],
-  "src/app/spartacus/features/organization/organization-user-registration-wrapper.module.ts": [
-    "chunk-OSP433GY.js"
-  ],
-  "src/app/spartacus/features/organization/administration-wrapper.module.ts": [
-    "chunk-C5AU5F5Q.js",
-    "chunk-LQZXNU56.js"
+  "node_modules/@spartacus/organization/fesm2022/spartacus-organization-administration.mjs": [
+    "chunk-HWJRXDCQ.js",
+    "chunk-UK2ECVAL.js"
   ],
   "node_modules/@spartacus/organization/fesm2022/spartacus-organization-account-summary.mjs": [
-    "chunk-MA7TIMSB.js",
-    "chunk-LQZXNU56.js"
+    "chunk-PU5U3ZL5.js",
+    "chunk-UK2ECVAL.js"
   ],
   "node_modules/@spartacus/organization/fesm2022/spartacus-organization-unit-order.mjs": [
-    "chunk-OYON4EOL.js",
-    "chunk-IIQMY6A6.js",
-    "chunk-NPKUWSMV.js",
-    "chunk-KU4G2TG2.js",
-    "chunk-UB4BBTSY.js"
+    "chunk-6MKQJ3GJ.js",
+    "chunk-XPVWCZPB.js",
+    "chunk-MFMVEAPT.js",
+    "chunk-UW3GRV27.js"
   ],
   "node_modules/@spartacus/organization/fesm2022/spartacus-organization-order-approval.mjs": [
-    "chunk-C4AOMZPZ.js",
-    "chunk-NPKUWSMV.js",
-    "chunk-KU4G2TG2.js",
-    "chunk-UB4BBTSY.js"
+    "chunk-D6CCRVH6.js",
+    "chunk-MFMVEAPT.js",
+    "chunk-UW3GRV27.js"
+  ],
+  "src/app/spartacus/features/product-configurator/rulebased-configurator-wrapper.module.ts": [
+    "chunk-QBYOPGG5.js"
   ],
   "node_modules/@spartacus/storefinder/fesm2022/spartacus-storefinder.mjs": [
-    "chunk-XCEBZDUA.js",
-    "chunk-MTHUHNF2.js"
+    "chunk-5CGLU6JP.js",
+    "chunk-SYXUUCNU.js"
   ],
   "node_modules/@spartacus/asm/fesm2022/spartacus-asm.mjs": [
-    "chunk-DTSWXNWO.js",
-    "chunk-HN4MCLP5.js"
+    "chunk-4HDRHYLO.js",
+    "chunk-JGFVNY5C.js"
   ],
   "node_modules/@spartacus/asm/fesm2022/spartacus-asm-customer-360.mjs": [
-    "chunk-DILSD4FZ.js",
-    "chunk-MTHUHNF2.js",
-    "chunk-HN4MCLP5.js"
-  ],
-  "node_modules/@spartacus/opf/fesm2022/spartacus-opf-global-functions.mjs": [
-    "chunk-SK6SFJJR.js",
-    "chunk-6JRZJTK5.js",
-    "chunk-VCQ2FDT4.js",
-    "chunk-W4WLSWPV.js"
-  ],
-  "node_modules/@spartacus/opf/fesm2022/spartacus-opf-cta.mjs": [
-    "chunk-YXERZ2UR.js",
-    "chunk-E476RAXL.js"
-  ],
-  "node_modules/@spartacus/opf/fesm2022/spartacus-opf-base.mjs": [
-    "chunk-LNN2H5PD.js",
-    "chunk-6JRZJTK5.js",
-    "chunk-E476RAXL.js"
-  ],
-  "node_modules/@spartacus/opf/fesm2022/spartacus-opf-payment.mjs": [
-    "chunk-Y6XMBLDN.js",
-    "chunk-VCQ2FDT4.js",
-    "chunk-E476RAXL.js"
-  ],
-  "node_modules/@spartacus/opf/fesm2022/spartacus-opf-checkout.mjs": [
-    "chunk-YP2IB4H5.js",
-    "chunk-VCQ2FDT4.js"
-  ],
-  "node_modules/@spartacus/tracking/fesm2022/spartacus-tracking-personalization.mjs": [
-    "chunk-EIVDOABL.js"
-  ],
-  "node_modules/@spartacus/pdf-invoices/fesm2022/spartacus-pdf-invoices.mjs": [
-    "chunk-SKLR4XOZ.js"
-  ],
-  "node_modules/@spartacus/requested-delivery-date/fesm2022/spartacus-requested-delivery-date.mjs": [
-    "chunk-MMWZVBMJ.js"
+    "chunk-SJBXECBS.js",
+    "chunk-SYXUUCNU.js",
+    "chunk-JGFVNY5C.js"
   ],
   "node_modules/@spartacus/cart/fesm2022/spartacus-cart-wish-list.mjs": [
-    "chunk-KIRELS4N.js"
+    "chunk-K3FE5HYD.js"
   ],
   "node_modules/@spartacus/cart/fesm2022/spartacus-cart-wish-list-components-add-to-wishlist.mjs": [
-    "chunk-M34TRDFA.js"
+    "chunk-PIPCTNFM.js"
   ],
   "node_modules/@spartacus/cart/fesm2022/spartacus-cart-quick-order.mjs": [
-    "chunk-FJ56ZAK6.js"
+    "chunk-4SLXATQE.js"
   ],
   "node_modules/@spartacus/cart/fesm2022/spartacus-cart-import-export.mjs": [
-    "chunk-RPSPRJOL.js"
+    "chunk-CFLPYUP2.js"
   ],
-  "src/app/spartacus/features/order/order-wrapper.module.ts": [
-    "chunk-MHTTM5UH.js",
-    "chunk-IIQMY6A6.js",
-    "chunk-NPKUWSMV.js",
-    "chunk-KU4G2TG2.js",
-    "chunk-UB4BBTSY.js"
-  ],
-  "node_modules/@spartacus/order/fesm2022/spartacus-order-document-flow.mjs": [
-    "chunk-UM5CDDNW.js",
-    "chunk-NPKUWSMV.js",
-    "chunk-KU4G2TG2.js",
-    "chunk-UB4BBTSY.js"
+  "node_modules/@spartacus/order/fesm2022/spartacus-order.mjs": [
+    "chunk-JC5DWOIY.js",
+    "chunk-XPVWCZPB.js",
+    "chunk-MFMVEAPT.js",
+    "chunk-UW3GRV27.js"
   ],
   "src/app/spartacus/features/checkout/checkout-wrapper.module.ts": [
-    "chunk-ASDXY3PZ.js"
+    "chunk-U3ZECVPD.js",
+    "chunk-YGDCIAP6.js"
   ],
-  "node_modules/@spartacus/opf/fesm2022/spartacus-opf-quick-buy.mjs": [
-    "chunk-GUA73VSC.js",
-    "chunk-W4WLSWPV.js",
-    "chunk-E476RAXL.js"
+  "node_modules/@spartacus/tracking/fesm2022/spartacus-tracking-personalization.mjs": [
+    "chunk-T2EJP3IE.js"
+  ],
+  "node_modules/@spartacus/organization/fesm2022/spartacus-organization-user-registration.mjs": [
+    "chunk-LPGG3GUM.js"
   ],
   "node_modules/cross-fetch/dist/browser-ponyfill.js": [
     "chunk-B7JTROQR.js"
   ],
-  "src/app/spartacus/features/user/user-account-wrapper.module.ts": [
-    "chunk-EFF53HJU.js"
+  "node_modules/@spartacus/user/fesm2022/spartacus-user-account.mjs": [
+    "chunk-L4RDDKGU.js"
   ],
-  "src/app/spartacus/features/user/user-profile-wrapper.module.ts": [
-    "chunk-ZA6PKHMS.js"
+  "node_modules/@spartacus/user/fesm2022/spartacus-user-profile.mjs": [
+    "chunk-VFQ5Z5PF.js",
+    "chunk-YGDCIAP6.js"
   ],
-  "src/app/spartacus/features/cart/cart-base-wrapper.module.ts": [
-    "chunk-5TDBZ563.js",
-    "chunk-KU4G2TG2.js"
+  "node_modules/@spartacus/cart/fesm2022/spartacus-cart-base.mjs": [
+    "chunk-66HBTZ3P.js"
   ],
   "node_modules/@spartacus/cart/fesm2022/spartacus-cart-base-components-mini-cart.mjs": [
-    "chunk-2H5IH73G.js"
+    "chunk-DHP4YUT5.js"
   ],
   "node_modules/@spartacus/cart/fesm2022/spartacus-cart-base-components-add-to-cart.mjs": [
-    "chunk-YR7BLDQK.js",
-    "chunk-UB4BBTSY.js"
+    "chunk-MI6W3LT2.js",
+    "chunk-UW3GRV27.js"
   ],
   "node_modules/@spartacus/cart/fesm2022/spartacus-cart-saved-cart.mjs": [
-    "chunk-AK2QDIKN.js",
-    "chunk-UB4BBTSY.js"
+    "chunk-IT2A2IOS.js",
+    "chunk-UW3GRV27.js"
   ]
 },
   assets: {
-    'index.csr.html': {size: 26362, hash: '9b18137aefa0509890278b5b00e60b21cb7f0a4f62a99b0d57d23cbd3120d949', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1542, hash: 'f2cff30334d0e281f93e3756f2b69785d344cf510516c3458c354178500a2245', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'styles-X3ZQL5WW.css': {size: 823949, hash: 'PKq+1Vl4JxY', text: () => import('./assets-chunks/styles-X3ZQL5WW_css.mjs').then(m => m.default)}
+    'index.csr.html': {size: 26434, hash: '6243e77dc013812014eb33a86d3c1bc19fbce138effb52658ffda8f02d3d58f6', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1615, hash: 'a2c722129ae36589368e9cce69b65d8c1beb968e46408d658f7d89934693e657', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'styles-3YEBY26Q.css': {size: 906527, hash: 'f1/6jr1VomY', text: () => import('./assets-chunks/styles-3YEBY26Q_css.mjs').then(m => m.default)}
   },
 };

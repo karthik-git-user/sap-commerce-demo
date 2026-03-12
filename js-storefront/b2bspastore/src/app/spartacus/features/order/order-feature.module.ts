@@ -10,7 +10,7 @@ import { ORDER_FEATURE, OrderRootModule } from '@spartacus/order/root';
     provideConfig(<CmsConfig>{
       featureModules: {
         [ORDER_FEATURE]: {
-          module: () => import('./order-wrapper.module').then((m) => m.OrderWrapperModule),
+          module: () => import('@spartacus/order').then((m) => m.OrderModule),
         },
       },
     }),
